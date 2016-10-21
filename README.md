@@ -19,16 +19,16 @@ There is also a partial/template for meta info on most social networks.
 ####Getting Started
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
 ```shell
-git clone https://github.com/dannyvassallo/rdforevercountry.git
-cd rdforevercountry
+git clone https://github.com/dannyvassallo/keleaballerini.git
+cd keleaballerini
 ```
 
-From the "rdforevercountry" directory, install the gems by running the following:
+From the "keleaballerini" directory, install the gems by running the following:
 ```shell
 bundle install
 ```
 
-To fire up the server while in the "rdforevercountry" directory use this command:
+To fire up the server while in the "keleaballerini" directory use this command:
 ```shell
 middleman s
 ```
@@ -44,7 +44,7 @@ If you find yourself curious as to what directory you are in use the following i
 ```shell
 pwd
 ```
-It should turn up "rdforevercountry"
+It should turn up "keleaballerini"
 
 ####Analytics Setup
 
