@@ -324,6 +324,7 @@ html, body{
 
 .header-image{
   // padding-bottom: 20px;
+  max-width: 1170px;
   z-index: 10;
 }
 
@@ -396,3 +397,84 @@ html, body{
 //     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b2446', endColorstr='#8da5c2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 //   }
 // }
+
+// gradients
+
+// .top-left-diagonal{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 50%;
+//   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dcc3d3+0,efe3d7+100&1+0,0+35 */
+//   background: -moz-linear-gradient(-45deg,  rgba(220,195,211,1) 0%, rgba(227,206,212,0) 35%, rgba(239,227,215,0) 100%); /* FF3.6-15 */
+//   background: -webkit-linear-gradient(-45deg,  rgba(220,195,211,1) 0%,rgba(227,206,212,0) 35%,rgba(239,227,215,0) 100%); /* Chrome10-25,Safari5.1-6 */
+//   background: linear-gradient(135deg,  rgba(220,195,211,1) 0%,rgba(227,206,212,0) 35%,rgba(239,227,215,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcc3d3', endColorstr='#00efe3d7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+// }
+//
+// .top-right-diagonal{
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   height: 100%;
+//   width: 50%;
+//   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe3d7+0,dcc3d3+100&0+65,1+100 */
+//   background: -moz-linear-gradient(45deg,  rgba(239,227,215,0) 0%, rgba(227,206,212,0) 65%, rgba(220,195,211,1) 100%); /* FF3.6-15 */
+//   background: -webkit-linear-gradient(45deg,  rgba(239,227,215,0) 0%,rgba(227,206,212,0) 65%,rgba(220,195,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
+//   background: linear-gradient(45deg,  rgba(239,227,215,0) 0%,rgba(227,206,212,0) 65%,rgba(220,195,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efe3d7', endColorstr='#dcc3d3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+// }
+//
+.bottom-left-diagonal{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dcc3d3+0,efe3d7+100&1+0,0+35 */
+  background: -moz-linear-gradient(45deg,  rgba(220,195,211,1) 0%, rgba(227,206,212,0) 35%, rgba(239,227,215,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgba(220,195,211,1) 0%,rgba(227,206,212,0) 35%,rgba(239,227,215,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgba(220,195,211,1) 0%,rgba(227,206,212,0) 35%,rgba(239,227,215,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcc3d3', endColorstr='#00efe3d7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.bottom-right-diagonal{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe3d7+0,dcc3d3+100&0+65,1+100 */
+  background: -moz-linear-gradient(-45deg,  rgba(239,227,215,0) 0%, rgba(227,206,212,0) 65%, rgba(220,195,211,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(239,227,215,0) 0%,rgba(227,206,212,0) 65%,rgba(220,195,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(239,227,215,0) 0%,rgba(227,206,212,0) 65%,rgba(220,195,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efe3d7', endColorstr='#dcc3d3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+//
+// #top-diagonals{
+//   position: absolute;
+//   top: 0;
+//   width: 100%;
+//   height: 50%;
+//   z-index: 0;
+// }
+//
+#bottom-diagonals{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 0;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+//
+#gate{
+  max-width: 1170px;
+}
+
+#age-gate{
+  // position: relative;
+  z-index: 10;
+}
